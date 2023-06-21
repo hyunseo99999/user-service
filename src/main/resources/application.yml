@@ -1,8 +1,6 @@
 
 server:
   port: 9001
-  servlet:
-    context-path: /user-service
 
 spring:
   application:
@@ -14,7 +12,7 @@ spring:
       settings:
         web-allow-others: true
   datasource:
-    url: jdbc:h2:tcp://localhost/~/msa
+    url: jdbc:h2:tcp://localhost/~/test
     username: sa
     driver-class-name: org.h2.Driver
   jpa:
