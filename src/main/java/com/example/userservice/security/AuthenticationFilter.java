@@ -28,7 +28,7 @@ public class AuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     public AuthenticationFilter(AuthenticationManager authenticationManager, UserService userService) {
         super(authenticationManager);
-        setFilterProcessesUrl("/user-service/login");
+        setFilterProcessesUrl("/login");
         this.authenticationManager = authenticationManager;
         this.userService = userService;
     }

@@ -35,6 +35,13 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation'
     implementation 'org.springframework.boot:spring-boot-starter-security'
+
+    implementation('org.springframework.cloud:spring-cloud-starter-config')
+    implementation('org.springframework.cloud:spring-cloud-starter-bootstrap')
+    implementation('org.springframework.boot:spring-boot-starter-actuator')
+
+
+
     implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 
     implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
